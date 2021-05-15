@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button,
+select {
+	text-transform: capitalize;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+button {
+	border: 0;
+}
+
+.active {
+	background-color: white;
+	border: 1px solid dimgray;
+}
+
+#container-clock {
+	display: flex;
+	flex-direction: row;
+}
+
+#container-clock > p {
+	height: 200px;
+	width: 200px;
+	background-color: #eee;
+	font-size: 100px;
+	line-height: 160px;
+	padding: 20px 0px;
+	border: 5px solid dimgray;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#container-clock > span {
+	font-size: 160px;
+	color: dimgray;
+}
+
+#container-buttons {
+	width: 40%;
+	background-color: #eee;
+	border: 5px solid dimgray;
+	padding: 20px;
+	margin-top: 40px;
+	border-radius: 10px;
+	font-size: 1.2rem;
+	font-family: "Arial", sans-serif;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#container-buttons p {
+	margin-bottom: 10px;
+}
+
+.display-none {
+	display: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Digital Clock</title>
+	</head>
+	<body>
+		<div id="container-clock">
+			<p id="p-hour"></p>
+			<span>:</span>
+			<p id="p-minute"></p>
+			<span>:</span>
+			<p id="p-second"></p>
+			<span>&nbsp;</span>
+			<p id="p-second"></p>
+		</div>
+
+		<div id="container-buttons">
+			<p>Time zone: <span id="span-timezone"></span></p>
+			<p id="p-format">
+				Change time format:
+				<button id="btn-12hours" class="active">12 hours</button
+				><button id="btn-24hours">24 hours</button>
+			</p>
+			<p>
+				Change color:
+				<select id="select-color"></select>
+			</p>
+			<p>
+				Change font style:
+				<select id="select-style"></select>
+			</p>
+		</div>
+
+		<script src="./js/index.js"></script>
+	</body>
+</html>
